@@ -59,6 +59,7 @@ This will create an ocr text file in the chapter specified (e.g. `books/ch01/CH0
 # Book organization
 
 - The original scan in each chapter directory is the name of the directory, in upper case, e.g `CH01.pdf` is the scan of the source material for chapter 1.
+- The English chapters are found in the `CHxx_english.pdf` document. (I appologize for their poor quality.)
 - The `.epub` is the result of the AI (ChatGPT) analysis. It should read vertically, but needs a ebook reader capable of property displaying vertical text.
 - The `CHxx_vertical.pdf` file is the result of the same AI analysis. It should also read vertically, but does not seem to be doing so at the moment.
 - The `CHxx_clean.txt` file is the result of the same AI analysis.
