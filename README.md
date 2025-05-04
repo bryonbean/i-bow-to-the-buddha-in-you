@@ -56,6 +56,14 @@ Now you can run the command:
 
 This will create an ocr text file in the chapter specified (e.g. `books/ch01/CH01_google_ocr.txt`). At which point you'll upload `CH01_google_ocr.txt` to ChatGPT for processing (cleaning, diagnostics, formatting, and export prep). Be sure to request that ChatGPT provide you with both a text file, pdf, and epub files of the translation.
 
+# Book organization
+
+- The original scan in each chapter directory is the name of the directory, in upper case, e.g `CH01.pdf` is the scan of the source material for chapter 1.
+- The `.epub` is the result of the AI (ChatGPT) analysis. It should read vertically, but needs a ebook reader capable of property displaying vertical text.
+- The `CHxx_vertical.pdf` file is the result of the same AI analysis. It should also read vertically, but does not seem to be doing so at the moment.
+- The `CHxx_clean.txt` file is the result of the same AI analysis.
+- The `CHxx_google_ocr.txt` file is the result of the OCR process of the Google Vision API.
+
 ***
 Namo myoho renge kyo :pray: :pray: :pray:
 
