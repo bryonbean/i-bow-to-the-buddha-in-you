@@ -65,5 +65,5 @@ This will create an ocr text file in the chapter specified (e.g. `books/ch01/CH0
 - The `CHxx_google_ocr.txt` file is the result of the OCR process of the Google Vision API.
 
 ***
-Namo myoho renge kyo :pray: :pray: :pray:
+南無妙法蓮華経 (Namu Myōhō Renge Kyō) :pray: :pray: :pray:
 
