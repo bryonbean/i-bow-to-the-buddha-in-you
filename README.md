@@ -24,14 +24,19 @@ tesseract --list-langs # should see 'jpn' listed
 
 # OCR
 
-Navigate into folder containing working chapter (e.g. ch01):
+First ensure that the `ocr_chapter.py` file is executable (this will only need to be performed once):
 
 ```
-cd book/ch01
-ocrmypdf --language jpn --sidecar CH01.txt CH01.pdf
+chmod +x ocr_chpater.py
 ```
 
-At which point you'll upload `CH01.txt` to ChatGPT for processing (cleaning, diagnostics, formatting, export prep).
+Now you can run the command:
+
+```
+./ocr_chapter --ch 1
+```
+
+This will create an ocr text file in the chapter specified (e.g. `books/ch01/CH01.txt`). At which point you'll upload `CH01.txt` to ChatGPT for processing (cleaning, diagnostics, formatting, and export prep). Be sure to request that ChatGPT provide you with both a text file, pdf, and epub files of the translation.
 
 ***
 Namo myoho renge kyo :pray: :pray: :pray:
