@@ -32,3 +32,6 @@ ocrmypdf --language jpn --sidecar CH01.txt CH01.pdf
 
 At which point you'll upload `CH01.txt` to ChatGPT for processing (cleaning, diagnostics, formatting, export prep).
 
+***
+Namo myoho renge kyo :pray: :pray: :pray:
+
