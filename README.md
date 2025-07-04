@@ -51,7 +51,7 @@ chmod +x ocr.py
 Now you can run the command:
 
 ```
-./ocr.py -ch 1
+./ocr.py --ch 1
 ```
 
 This will create an ocr text file in the chapter specified (e.g. `books/ch01/CH01_google_ocr.txt`). At which point you'll upload `CH01_google_ocr.txt` to ChatGPT for processing (cleaning, diagnostics, formatting, and export prep). Be sure to request that ChatGPT provide you with both a text file, pdf, and epub files of the translation.
