@@ -30,7 +30,7 @@ Note: `/home/user/.google/ibowtothebuddhainyou-credentials.json` is a good locat
 ## Create a user account
 
 - Request access to the service account.
-- Go to: [console.cloud.google.com](https://Go to: console.cloud.google.com).
+- Go to: [console.cloud.google.com](https://console.cloud.google.com).
 - Select the `IBowToTheBuddhaInYou` project (which should be available in your list of projects).
 - Navigate to: **IAM & Admin → Service Accounts**.
 - Select the, `vision-account-access`, service account.
