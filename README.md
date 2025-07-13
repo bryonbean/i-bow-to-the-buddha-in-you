@@ -27,6 +27,18 @@ Endeavor to extract the original Japanese from source material that was the basi
 
 Note: `/home/user/.google/ibowtothebuddhainyou-credentials.json` is a good location and name for this file
 
+## Create a user account
+
+- Request access to the service account.
+- Go to: [console.cloud.google.com](https://Go to: console.cloud.google.com).
+- Select the `IBowToTheBuddhaInYou` project (which should be available in your list of projects).
+- Navigate to: **IAM & Admin → Service Accounts**.
+- Select the, `vision-account-access`, service account.
+- Go to the “**Keys**” tab.
+- Click “**Add Key → Create new key**” → JSON.
+- Download the .json key file, move the file to a safe place.
+- `export GOOGLE_APPLICATION_CREDENTIALS="/absolute/path/to/key.json`
+
 ## Create a GCS bucket
 
 - https://console.cloud.google.com/storage/browser
